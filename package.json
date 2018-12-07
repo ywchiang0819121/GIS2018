@@ -3,19 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --host 140.118.127.164 --port 8080",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "@vue/eslint-plugin": "^4.2.0",
+    "axios": "^0.18.0",
+    "exif": "^0.6.0",
+    "exif-js": "^2.3.0",
+    "npm": "^6.4.1",
+    "vue": "^2.5.17",
+    "vue-browser-geolocation": "^1.5.0",
+    "vue-picture-input": "^2.1.6",
+    "vue-router": "^3.0.2",
+    "vue2-google-maps": "^0.10.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
     "@vue/cli-plugin-eslint": "^3.2.0",
     "@vue/cli-service": "^3.2.0",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
+    "eslint": "^5.9.0",
     "eslint-plugin-vue": "^5.0.0-0",
     "vue-template-compiler": "^2.5.17"
   },

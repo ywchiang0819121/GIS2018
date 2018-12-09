@@ -10,5 +10,8 @@ export default {
         return await client.post("upload/", formdata, {
             headers: {"Content-Type": "multipart/form-data" }
         });
+    },
+    getquestion: async() => {
+        return await client.get("question/");
     }
 };
